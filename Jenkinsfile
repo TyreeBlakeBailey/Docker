@@ -26,7 +26,7 @@ pipeline {
           }
       }
       steps {
-          sh '/home/kali/Desktop/Calc/build.sh'
+          sh './build.sh'
           stash(name: 'compiled-results', includes: 'calculator/*.py*')
       }
     }
