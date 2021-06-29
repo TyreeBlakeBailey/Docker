@@ -38,7 +38,7 @@ pipeline {
     			}
     	}
     	steps {
-    			sh 'py.test --junit-xml test-reports/results.xml calculator/calc_test.py'
+    			sh 'py.test --junit-xml test-reports/results.xml calculator/test_unittest_calc_functions.py'
     	}
     	post {
     			always {
