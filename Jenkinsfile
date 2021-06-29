@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "TyreeBlakeBailey/Docker"
+    registry = "tyreebb/docker-flask"
     registryCredential = "docker_auth"
     dockerImage = ''
   }
