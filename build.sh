@@ -1,3 +1,3 @@
 pip install -r requirements.txt
-python3 -m calculator/main.py calculator/calc_functions.py
-python3 -m calculator/calc_test.py
+python3 -m py_compile calculator/main.py calculator/calc_functions.py
+python3 -m py_compile calculator/calc_test.py
