@@ -15,7 +15,7 @@ pipeline {
     stage('Cloning our Git') {
     		steps {
             git branch: 'main',
-            url: 'https://github.com/TyreeBlakeBailey/Docker'
+            url: 'https://github.com/TyreeBlakeBailey/Docker.git'
     		}
     }
 
